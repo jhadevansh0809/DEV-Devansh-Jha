@@ -52,7 +52,7 @@
     }
 
     h3{
-      @apply text-4xl text-orange-700 font-bold;
+      @apply text-4xl text-orange-700 font-bold xxs:tracking-wide;
     }
 
     p{
@@ -90,6 +90,10 @@
 
     .contact-container img{
         @apply w-5 h-5 inline-block;
+    }
+
+    .contact-container p{
+      @apply leading-7;
     }
 
     .project-container p{

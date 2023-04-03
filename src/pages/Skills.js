@@ -15,6 +15,7 @@ import iot from '../images/iot.png'
 const Skills = () => {
   return (
       <div className='skills-container w-4/5 m-auto my-20'>
+       <h3 className='text-center mb-10 text-[30px]'>My Skills</h3>
         <div className='my-10'>
         <p className='font-bold text-orange-600 text-center mb-1 uppercase text-md'>Programming Languages</p>
          <div className='py-10 flex items-center justify-center md:flex-wrap'>
