@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import devansh from '../images/devansh.png'
 import instagram from '../images/instagram.png'
@@ -7,6 +7,11 @@ import github from '../images/github.png'
 import leetcode from '../images/leetcode.png'
 
 const About = () => {
+  
+  useEffect(() => {
+      document.title = 'Devansh Jha';
+  }, []);
+ 
   return (
     <div className='m-auto flex justify-evenly items-center my-20 md:flex-col'>
       <img src={devansh} alt='myphoto' className='w-1/3 rounded-full md:w-2/5 sm:w-3/5 hover:scale-110 transition duration-300 ease-in-out'/> 

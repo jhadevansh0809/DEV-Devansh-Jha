@@ -1,10 +1,15 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import carzone from '../images/carzone.jpg'
 import cricblogs from '../images/cricblogs.jpg'
 import youtube from '../images/youtube.jpg'
 import zigbee from '../images/zigbee.jpg'
 
 const Projects = () => {
+
+  useEffect(() => {
+      document.title = 'Devansh Jha | Projects';
+  }, []);
+  
   return (
     <div className='project-container w-2/5 text-white m-auto my-20 sm:w-4/5 lg:w-3/5'>
        <h3 className='text-center mb-10 text-[30px]'>My Projects</h3>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import c from '../images/c.png'
 import cpp from '../images/cpp.png'
 import python from '../images/python.png'
@@ -13,6 +13,11 @@ import arduino from '../images/arduino.png'
 import iot from '../images/iot.png'
 
 const Skills = () => {
+   
+   useEffect(() => {
+        document.title = 'Devansh Jha | Skills';
+   }, []);
+
   return (
       <div className='skills-container w-4/5 m-auto my-20'>
        <h3 className='text-center mb-10 text-[30px]'>My Skills</h3>

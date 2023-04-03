@@ -1,9 +1,14 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import location from '../images/location.png'
 import gmail from '../images/gmail.png'
 import phone from '../images/phone.png'
 
 const Contact = () => {
+
+  useEffect(() => {
+      document.title = 'Devansh Jha | Contact';
+  }, []);
+  
   return (
     <div className='w-1/3 text-white m-auto my-20 contact-container lg:w-1/2 sm:w-4/5'>
     <h3 className='text-center mb-10 text-[30px]'>Contact Me</h3>
