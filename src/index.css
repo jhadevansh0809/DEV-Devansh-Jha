@@ -14,7 +14,7 @@
   }
 
  .btn{
-   @apply bg-orange-800 text-white px-3 py-2 rounded-md hover:bg-white hover:text-black hover:scale-110 transition duration-100 ease-in-out sm:text-[14px];
+   @apply bg-orange-800 text-white px-3 py-2 rounded-md hover:bg-white hover:text-black hover:scale-110 transition duration-100 ease-in-out sm:text-[16px];
  }
 
  .btn-red{
@@ -101,7 +101,7 @@
     }
 
     .project-container img{
-      @apply rounded-lg mt-1 mb-4 h-72 sm:h-56 md:h-60 w-full;
+      @apply rounded-lg mt-1 mb-4 h-72 sm:h-56 md:h-60 xxs:h-48 w-full;
     }
 
     .project-container div{

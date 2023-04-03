@@ -20,6 +20,8 @@ module.exports = {
 
       'sm': {'max': '600px'},
 
+      'xxs' :{'max': '460px' }
+
     }
 
     
