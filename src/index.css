@@ -14,7 +14,7 @@
   }
 
  .btn{
-   @apply bg-orange-800 text-white px-3 py-2 rounded-md hover:bg-white hover:text-black hover:scale-110 transition duration-100 ease-in-out sm:text-[16px];
+   @apply bg-orange-700 text-white px-3 py-2 rounded-md hover:bg-white hover:text-black hover:scale-110 transition duration-100 ease-in-out sm:text-[16px];
  }
 
  .btn-red{
