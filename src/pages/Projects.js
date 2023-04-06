@@ -16,7 +16,7 @@ const Projects = () => {
       <div>
         <img src={carzone} alt='car dealer'/>
         <h3 className='text-[25px]'>Carzone: A Car Selling Website</h3>
-        <span className='text-blue-900 block'>Web</span>
+        <span className='text-blue-700 block'>Web</span>
         <span>06/2021-07/2021</span>
         <h5 className='mt-4'>Description:</h5>
         <p className='mb-2'>A responsive website providing all the functionalities of a car dealer website from which a user can buy a car, mainly a second hand car.</p>
@@ -30,7 +30,7 @@ const Projects = () => {
       <div className='mt-10'>
         <img src={cricblogs} alt='cricket'/>
         <h3 className='text-[25px]'>CricBlogs: A Cricket Blog Website</h3>
-        <span className='text-blue-900 block'>Web</span>
+        <span className='text-blue-700 block'>Web</span>
         <span>03/2023-03/2023</span>
         <h5 className='mt-4'>Description:</h5>
         <p className='mb-2'>A blog website which allow users to add, edit and remove blogs. Used Django REST Framework to create RESTful API endpoints and fetched data using ReactJS. Implemented user authentication functionality using JWT(JSON Web Token).</p>
@@ -42,7 +42,7 @@ const Projects = () => {
       <div className='mt-10'>
         <img src={youtube} alt='youtube logo'/>
         <h3 className='text-[25px]'>YTube: A YouTube Clone</h3>
-        <span className='text-blue-900 block'>Web</span>
+        <span className='text-blue-700 block'>Web</span>
         <span>02/2023-03/2023</span>
         <h5 className='mt-4'>Description:</h5>
         <p className='mb-2'>A responsive clone that aims to replicate the essential features and functionalities of the popular video-sharing platform, Youtube.</p>
@@ -54,7 +54,7 @@ const Projects = () => {
       <div className='mt-10'>
         <img src={zigbee} alt='car dealer'/>
         <h3 className='text-[25px]'>Automation Using Zigbee</h3>
-        <span className='text-blue-900 block'>IoT</span>
+        <span className='text-blue-700 block'>IoT</span>
         <span>02/2022-04/2022</span>
         <h5 className='mt-4'>Description:</h5>
         <p className='mb-2'>A wireless network with star topology using zigbee which works on the principle of low data rate and long range communication.</p>

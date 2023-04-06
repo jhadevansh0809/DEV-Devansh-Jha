@@ -105,7 +105,7 @@
     }
 
     .project-container img{
-      @apply rounded-lg mt-1 mb-4 h-72 sm:h-56 md:h-60 xxs:h-48 w-full;
+      @apply rounded-lg mt-1 mb-4 h-[280px] lg:h-[320px] sm:h-60 md:h-60 xxs:h-48 w-full;
     }
 
     .project-container div{
