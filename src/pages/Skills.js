@@ -5,8 +5,10 @@ import python from '../images/python.png'
 import js from '../images/js.png'
 import html from '../images/html.png'
 import css from '../images/css.png'
+import tailwind from '../images/tailwind.png'
 import react from '../images/react.png'
 import django from '../images/django.png'
+import git from '../images/git.png'
 import vscode from '../images/vscode.png'
 import pycharm from '../images/pycharm.png'
 import arduino from '../images/arduino.png'
@@ -35,6 +37,7 @@ const Skills = () => {
          <div className='py-10 flex items-center justify-center md:flex-wrap'>
             <img src={html} alt='html logo'/>
             <img src={css} alt='css logo'/>
+            <img src={tailwind} alt='tailwind css logo'/>
             <img src={react} alt='react logo'/>
             <img src={django} alt='django logo'/>
          </div>
@@ -42,6 +45,7 @@ const Skills = () => {
         <div className='my-10'>
         <p className='font-bold text-orange-700 text-center mb-1 uppercase text-md'>Tools</p>
          <div className='py-10 flex items-center justify-center md:flex-wrap'>
+            <img src={git} alt='git logo'/>
             <img src={vscode} alt='vscode logo'/>
             <img src={pycharm} alt='pycharm logo'/>
          </div>
